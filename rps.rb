@@ -10,8 +10,8 @@ computer_throw = throws.sample
 if player_throw == computer_throw 
   answer = "Hay un empate¡¡¡"
 elsif player_throw == defeat[computer_throw]
-  answer = "Pierdes; #{computer_throw} pierde #{player_throw}"
+  answer = "Pierdes¡¡¡; #{computer_throw} pierde #{player_throw}"
 else
-  answer = "Muy bien. #{player_throw} Gana #{computer_throw}"
+  answer = "Muy bien¡¡¡. #{player_throw} Gana #{computer_throw}"
 end
 puts answer
